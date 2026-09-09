@@ -62,7 +62,7 @@
     "transmission": "Automatic",
     "seats": 5,
     "status": "Available",
-    "image": "../src/assets/vehicles/vitz.png",
+    "image": "/assets/vehicles/vitz.png",
     "description": "A compact and fuel-efficient hatchback offering reliable performance and comfortable everyday driving."
   }
 ]
