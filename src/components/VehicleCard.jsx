@@ -4,7 +4,17 @@ import BookingModal from "./BookingModal";
 
 function VehicleCard({ vehicle }) {
   const [showBooking, setShowBooking] = useState(false);
+const vehicleImages = import.meta.glob(
+  "../assets/vehicles/*.{png,jpg,jpeg,webp}",
+  {
+    eager: true,
+    import: "default",
+  }
+);
 
+const getVehicleImage = (imageName) => {
+  return vehicleImages[`../assets/vehicles/${imageName}`];
+};
   const openBooking = () => {
     setShowBooking(true);
   };
@@ -41,15 +51,15 @@ function VehicleCard({ vehicle }) {
 
           {/* Vehicle Image */}
           <div className="lg:col-span-3 flex justify-center">
-            <img
-              src={vehicle.image}
-              alt={`${vehicle.brand} ${vehicle.model}`}
-              className="
-                vehicle-image-animation
-                w-full max-w-[300px] h-[150px]
-                object-contain
-              "
-            />
+           <img
+  src={getVehicleImage(vehicle.image)}
+  alt={`${vehicle.brand} ${vehicle.model}`}
+  className="
+    vehicle-image-animation
+    w-full max-w-[300px] h-[150px]
+    object-contain
+  "
+/>
           </div>
 
           {/* Price Includes */}
