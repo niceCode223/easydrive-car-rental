@@ -1,0 +1,69 @@
+
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Corolla 1.8 XR",
+    "year": 2024,
+    "pricePerDay": 650,
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "seats": 5,
+    "status": "Available",
+    "image": "src/assets/vehicles/corolla.png",
+    "description": "A comfortable and reliable sedan, perfect for city and long-distance trips."
+  },
+  {
+    "id": 2,
+    "brand": "Volkswagen",
+    "model": "Polo 1.0 TSI Life",
+    "year": 2023,
+    "pricePerDay": 550,
+    "fuelType": "Petrol",
+    "transmission": "Manual",
+    "seats": 5,
+    "status": "Available",
+    "image": "src/assets/vehicles/polo.png",
+    "description": "A stylish and economical hatchback ideal for everyday driving and city travel."
+  },
+  {
+    "id": 3,
+    "brand": "Toyota",
+    "model": "Corolla Cross 1.8 XR",
+    "year": 2024,
+    "pricePerDay": 1200,
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "seats": 5,
+    "status": "Available",
+    "image": "src/assets/vehicles/cross.png",
+    "description": "A versatile compact SUV offering excellent comfort, space and performance for city and long-distance journeys."
+  },
+  {
+    "id": 4,
+    "brand": "Suzuki",
+    "model": "Swift 1.2 GL",
+    "year": 2023,
+    "pricePerDay": 950,
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "seats": 5,
+    "status": "Available",
+    "image": "src/assets/vehicles/swift.png",
+    "description": "A compact and economical hatchback that is easy to drive and perfect for city trips and weekend travel."
+  },
+  {
+    "id": 5,
+    "brand": "Toyota",
+    "model": "Vitz 1.3 F",
+    "year": 2023,
+    "pricePerDay": 950,
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "seats": 5,
+    "status": "Available",
+    "image": "src/assets/vehicles/vitz.png",
+    "description": "A compact and fuel-efficient hatchback offering reliable performance and comfortable everyday driving."
+  }
+]
+

@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "city": "Johannesburg",
+    "province": "Gauteng"
+  },
+  {
+    "id": 2,
+    "city": "Cape Town",
+    "province": "Western Cape"
+  },
+  {
+    "id": 3,
+    "city": "Durban",
+    "province": "KwaZulu-Natal"
+  },
+  {
+    "id": 4,
+    "city": "Pretoria",
+    "province": "Gauteng"
+  },
+  {
+    "id": 5,
+    "city": "Gqeberha",
+    "province": "Eastern Cape"
+  },
+  {
+    "id": 6,
+    "city": "Bloemfontein",
+    "province": "Free State"
+  },
+  {
+    "id": 7,
+    "city": "Pietermaritzburg",
+    "province": "KwaZulu-Natal"
+  },
+  {
+    "id": 8,
+    "city": "East London",
+    "province": "Eastern Cape"
+  },
+  {
+    "id": 9,
+    "city": "Polokwane",
+    "province": "Limpopo"
+  },
+  {
+    "id": 10,
+    "city": "Mbombela",
+    "province": "Mpumalanga"
+  },
+  {
+    "id": 11,
+    "city": "Kimberley",
+    "province": "Northern Cape"
+  },
+  {
+    "id": 12,
+    "city": "Rustenburg",
+    "province": "North West"
+  },
+  {
+    "id": 13,
+    "city": "Welkom",
+    "province": "Free State"
+  },
+  {
+    "id": 14,
+    "city": "Benoni",
+    "province": "Gauteng"
+  },
+  {
+    "id": 15,
+    "city": "Boksburg",
+    "province": "Gauteng"
+  },
+  {
+    "id": 16,
+    "city": "Vereeniging",
+    "province": "Gauteng"
+  },
+  {
+    "id": 17,
+    "city": "Krugersdorp",
+    "province": "Gauteng"
+  },
+  {
+    "id": 18,
+    "city": "Soweto",
+    "province": "Gauteng"
+  },
+  {
+    "id": 19,
+    "city": "Soshanguve",
+    "province": "Gauteng"
+  },
+  {
+    "id": 20,
+    "city": "Tembisa",
+    "province": "Gauteng"
+  },
+  {
+    "id": 21,
+    "city": "Springs",
+    "province": "Gauteng"
+  },
+  {
+    "id": 22,
+    "city": "Germiston",
+    "province": "Gauteng"
+  },
+  {
+    "id": 23,
+    "city": "Alberton",
+    "province": "Gauteng"
+  },
+  {
+    "id": 24,
+    "city": "Centurion",
+    "province": "Gauteng"
+  },
+  {
+    "id": 25,
+    "city": "Midrand",
+    "province": "Gauteng"
+  },
+  {
+    "id": 26,
+    "city": "Newcastle",
+    "province": "KwaZulu-Natal"
+  },
+  {
+    "id": 27,
+    "city": "Richards Bay",
+    "province": "KwaZulu-Natal"
+  },
+  {
+    "id": 28,
+    "city": "Ladysmith",
+    "province": "KwaZulu-Natal"
+  },
+  {
+    "id": 29,
+    "city": "Mthatha",
+    "province": "Eastern Cape"
+  },
+  {
+    "id": 30,
+    "city": "Bhisho",
+    "province": "Eastern Cape"
+  },
+  {
+    "id": 31,
+    "city": "Mdantsane",
+    "province": "Eastern Cape"
+  },
+  {
+    "id": 32,
+    "city": "George",
+    "province": "Western Cape"
+  },
+  {
+    "id": 33,
+    "city": "Stellenbosch",
+    "province": "Western Cape"
+  },
+  {
+    "id": 34,
+    "city": "Paarl",
+    "province": "Western Cape"
+  },
+  {
+    "id": 35,
+    "city": "Worcester",
+    "province": "Western Cape"
+  },
+  {
+    "id": 36,
+    "city": "Somerset West",
+    "province": "Western Cape"
+  },
+  {
+    "id": 37,
+    "city": "Mossel Bay",
+    "province": "Western Cape"
+  },
+  {
+    "id": 38,
+    "city": "Knysna",
+    "province": "Western Cape"
+  },
+  {
+    "id": 39,
+    "city": "Potchefstroom",
+    "province": "North West"
+  },
+  {
+    "id": 40,
+    "city": "Klerksdorp",
+    "province": "North West"
+  },
+  {
+    "id": 41,
+    "city": "Mahikeng",
+    "province": "North West"
+  },
+  {
+    "id": 42,
+    "city": "Middelburg",
+    "province": "Mpumalanga"
+  },
+  {
+    "id": 43,
+    "city": "Witbank",
+    "province": "Mpumalanga"
+  },
+  {
+    "id": 44,
+    "city": "Secunda",
+    "province": "Mpumalanga"
+  },
+  {
+    "id": 45,
+    "city": "Mokopane",
+    "province": "Limpopo"
+  },
+  {
+    "id": 46,
+    "city": "Tzaneen",
+    "province": "Limpopo"
+  },
+  {
+    "id": 47,
+    "city": "Thohoyandou",
+    "province": "Limpopo"
+  },
+  {
+    "id": 48,
+    "city": "Phalaborwa",
+    "province": "Limpopo"
+  },
+  {
+    "id": 49,
+    "city": "Sasolburg",
+    "province": "Free State"
+  },
+  {
+    "id": 50,
+    "city": "Bethlehem",
+    "province": "Free State"
+  }
+]
