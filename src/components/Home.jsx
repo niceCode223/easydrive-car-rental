@@ -251,7 +251,7 @@ const handleLocationSelect = (location) => {
                 </div>
 
                 {/* ================= RETURN LOCATION ================= */}
-                <div className="flex items-center gap-3 mb-6">
+                {/* <div className="flex items-center gap-3 mb-6">
                   <input
                     type="checkbox"
                     checked={differentReturnLocation}
@@ -266,7 +266,7 @@ const handleLocationSelect = (location) => {
                   <span className="text-sm font-medium text-slate-700">
                     Choose a different return location
                   </span>
-                </div>
+                </div> */}
 
                 {/* ================= DATES ================= */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
