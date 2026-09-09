@@ -10,7 +10,7 @@
     "transmission": "Automatic",
     "seats": 5,
     "status": "Available",
-    "image": "src/assets/vehicles/corolla.png",
+    "image": "../src/assets/vehicles/corolla.png",
     "description": "A comfortable and reliable sedan, perfect for city and long-distance trips."
   },
   {
@@ -23,7 +23,7 @@
     "transmission": "Manual",
     "seats": 5,
     "status": "Available",
-    "image": "src/assets/vehicles/polo.png",
+    "image": "../src/assets/vehicles/polo.png",
     "description": "A stylish and economical hatchback ideal for everyday driving and city travel."
   },
   {
@@ -36,7 +36,7 @@
     "transmission": "Automatic",
     "seats": 5,
     "status": "Available",
-    "image": "src/assets/vehicles/cross.png",
+    "image": "../src/assets/vehicles/cross.png",
     "description": "A versatile compact SUV offering excellent comfort, space and performance for city and long-distance journeys."
   },
   {
@@ -49,7 +49,7 @@
     "transmission": "Automatic",
     "seats": 5,
     "status": "Available",
-    "image": "src/assets/vehicles/swift.png",
+    "image": "../src/assets/vehicles/swift.png",
     "description": "A compact and economical hatchback that is easy to drive and perfect for city trips and weekend travel."
   },
   {
@@ -62,7 +62,7 @@
     "transmission": "Automatic",
     "seats": 5,
     "status": "Available",
-    "image": "src/assets/vehicles/vitz.png",
+    "image": "../src/assets/vehicles/vitz.png",
     "description": "A compact and fuel-efficient hatchback offering reliable performance and comfortable everyday driving."
   }
 ]
