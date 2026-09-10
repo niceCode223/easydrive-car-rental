@@ -1,3 +1,25 @@
+
+
+// Import all vehicle images from src/assets/vehicles
+const vehicleImages = import.meta.glob(
+  "../assets/vehicles/*.{png,jpg,jpeg,webp}",
+  {
+    eager: true,
+    import: "default",
+  }
+);
+
+// Get the correct bundled image
+const getVehicleImage = (imageName) => {
+  if (!imageName) {
+    return "";
+  }
+
+  const imagePath = `../assets/vehicles/${imageName}`;
+
+  return vehicleImages[imagePath] || "";
+};
+
 function SummaryItem({ label, value }) {
   return (
     <div>
@@ -76,15 +98,20 @@ function SuccessModal({ booking, onClose }) {
               Vehicle Details
             </h3>
 
-            <div className="bg-white-50 rounded-xl p-5 border-2 border-blue-950 shadow-lg">
+            <div className="bg-white rounded-xl p-5 border-2 border-blue-950 shadow-lg">
 
               <div className="flex flex-col md:flex-row gap-5">
 
-                <img
-                  src={vehicle.image}
-                  alt={`${vehicle.brand} ${vehicle.model}`}
-                   className="w-full max-w-[300px] h-[150px] object-contain"
-                />
+                {/* Vehicle Image */}
+                <div className="w-full md:w-[300px] flex justify-center items-center">
+
+                  <img
+                    src={getVehicleImage(vehicle.image)}
+                    alt={`${vehicle.brand} ${vehicle.model}`}
+                    className="vehicle-image-animation w-full max-w-[300px] h-[150px] object-contain"
+                  />
+
+                </div>
 
                 <div className="flex-1">
 
