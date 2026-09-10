@@ -127,7 +127,7 @@ function About() {
             Why Choose EasyDrive?
           </h3>
 
-          <p className="text-blue-200 max-w-2xl mx-auto">
+          <p className="text-blue-200">
             Everything we do is focused on making your rental experience
             easier and more enjoyable.
           </p>

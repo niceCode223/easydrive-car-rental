@@ -2,6 +2,18 @@ import { useState } from "react";
 import SuccessModal from "./SuccessModal";
 
 function BookingModal({ vehicle, onClose }) {
+
+const vehicleImages = import.meta.glob(
+  "../assets/vehicles/*.{png,jpg,jpeg,webp}",
+  {
+    eager: true,
+    import: "default",
+  }
+);
+
+const getVehicleImage = (imageName) => {
+  return vehicleImages[`../assets/vehicles/${imageName}`];
+};
   const [showSuccess, setShowSuccess] = useState(false);
   const [booking, setBooking] = useState(null);
   const [error, setError] = useState("");
@@ -140,12 +152,11 @@ function BookingModal({ vehicle, onClose }) {
 
                 <div className="flex flex-col sm:flex-row gap-5">
 
-                  <img
-                    src={vehicle.image}
-                    alt={`${vehicle.brand} ${vehicle.model}`}
-                    // className="w-full sm:w-30 h-24 object-cover rounded-lg "
-                    className="w-full max-w-[300px] h-[150px] object-contain"
-                  />
+                 <img
+  src={getVehicleImage(vehicle.image)}
+  alt={`${vehicle.brand} ${vehicle.model}`}
+  className="w-full max-w-[300px] h-[150px] object-contain"
+/>
 
                   <div>
                     <p className="text-sm text-blue-900 font-semibold">
